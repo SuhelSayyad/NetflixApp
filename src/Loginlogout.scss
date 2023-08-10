@@ -1,0 +1,65 @@
+#login{
+    background-image: url("../images/netflixteaser.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+#signup{
+    color: white;
+    font-size: 50px;
+}
+#signin{
+    color: white;
+    font-size: 50px;
+}
+#suorsi{
+    color: red;
+}
+#emailid{
+    background: transparent;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    
+}
+#emailid:hover{
+    background-color: gray;
+    transition: all 0.5s;
+}
+#emailid::placeholder{
+    color: white;
+}
+#pw{
+    background: transparent;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+
+}
+#pw::placeholder{
+    color:white;
+}
+#pw:hover{
+    background-color: gray;
+    transition: all 0.5s;
+}
+#btn2{
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(113, 7, 7);
+    color: white;
+    border: none;
+}
+#btn2:hover{
+    background-color: red;
+    transition: all 0.5s;
+}
